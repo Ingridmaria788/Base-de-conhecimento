@@ -78,7 +78,7 @@
         "preço_medio": "R$ 40 - R$ 80 por pessoa",
         "horario_funcionamento": "9h às 17h",
         "maps_link": "https://www.google.com/maps/search/?api=1&query=Lavand%C3%A1rio+Caf%C3%A9+Bistr%C3%B4+Cunha+SP",
-        "image": "Images\\lavandario-de-cunha-09-destaque.jpg"
+        "image": "Images\\Lavandario cafe e bistro.webp"
     },
     {
         "nome": "Moara Café",
@@ -106,5 +106,61 @@
         "horario_funcionamento": "Geralmente aberto aos finais de semana (consultar redes sociais)",
         "maps_link": "https://www.google.com/maps/search/?api=1&query=Ateli%C3%AA+do+Gato+Cunha+SP",
         "image": "Images\\Ateliê do Gato.jpg"
-    }
+    },
+    {
+        "nome": "Cachoeira do Pimenta",
+        "descricao": "Cachoeira de fácil acesso, ideal para um banho refrescante e um piquenique em meio à natureza.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito",
+        "horario_funcionamento": "Aberto 24h, mas recomendado durante o dia.",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Cachoeira+do+Pimenta+Cunha+SP",
+        "image": "Images\\Cachoeira do Pimenta.jpg"
+    },
+    {
+        "nome": "Mirante do Cruzeiro",
+        "descricao": "Mirante com uma vista panorâmica da cidade de Cunha e das montanhas ao redor. Um ótimo local para assistir ao pôr do sol.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito",
+        "horario_funcionamento": "Aberto 24h",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Cruzeiro+Cunha+SP",
+        "image": "Images\\Mirante do Cruzeiro.jpg"
+    },
+    {
+        "nome": "Igreja Matriz de Cunha",
+        "descricao": "Igreja histórica localizada no centro da cidade, com arquitetura colonial e belos detalhes internos.",
+        "localizacao": "Centro, Cunha, SP",
+        "preço_entrada": "Gratuito para visitação",
+        "horario_funcionamento": "8h às 18h",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Igreja+Matriz+de+Cunha+Cunha+SP",
+        "image": "Images\\Igreja Matriz de Cunha.jpg"
+    },
+    {
+        "nome": "Trilha do Ouro",
+        "descricao": "Trilha histórica que segue o antigo caminho utilizado para o transporte de ouro, passando por belas paisagens naturais.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito",
+        "horario_funcionamento": "Aberto 24h, mas recomendado durante o dia.",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Trilha+do+Ouro+Cunha+SP",
+        "image": "Images\\Trilha do Ouro.jpg"
+    },
+    {
+        "nome": "Mercado de Artesanato de Cunha",
+        "descricao": "Mercado que reúne diversos artesãos locais, oferecendo uma variedade de produtos feitos à mão, incluindo cerâmicas, roupas e lembranças.",
+        "localizacao": "Centro, Cunha, SP",
+        "preço_entrada": "Gratuito para visitação",
+        "horario_funcionamento": "Geralmente aberto aos finais de semana (consultar redes sociais)",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Mercado+de+Artesanato+de+Cunha+Cunha+SP",
+        "image": "Images\\Mercado de Artesanato de Cunha.webp"
+    },
+    {
+        "nome": "Cachoeira do Desterro",
+        "descricao": "Cachoeira com uma queda d'água impressionante, ideal para quem gosta de trilhas e contato com a natureza.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito",
+        "horario_funcionamento": "Aberto 24h, mas recomendado durante o dia.",
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Cachoeira+do+Desterro+Cunha+SP",
+        "image": "Images\\Cachoeira do Desterro.jpg"
+    } 
 ]
+
+    
