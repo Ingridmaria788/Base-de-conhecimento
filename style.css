@@ -1,21 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
 
 * {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
 :root {
-    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
+    --primary-color: #97c595; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --tertiary-color: #afc9b2; /* Cor terciária (cinza médio) */
+    --bg-color: #374b3f; /* Cor de fundo (cinza escuro) */
 }
 
 body {
     margin: 0; /* Remove a margem padrão do body */
     background: var(--bg-color); /* Define a cor de fundo usando uma variável */
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
-    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    font-family: "Playfair Display", serif; /* Define a família da fonte */
+}
+
+/* Layout básico para garantir que o footer fique no final da página */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -89,11 +100,10 @@ div input:focus {
 }
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
+    /* Conteúdo principal flexível para empurrar o footer para o fim */
     max-width: 80rem; /* Largura máxima do conteúdo principal */
-    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
-    margin-top: 2rem; /* Margem no topo */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    margin: 2rem auto 0 auto; /* Centraliza o conteúdo principal horizontalmente e mantém margem superior */
+    flex: 1 0 auto; /* Faz o main crescer e ocupar o espaço disponível */
 }
 
 article {
@@ -106,6 +116,55 @@ article {
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
     border-bottom: 1px solid var(--bg-color); /* Borda inferior */
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+}
+
+/* Cards grid: 2 por linha em telas médias/maiores, 1 por linha em telas pequenas */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    padding: 0 1rem 2rem 1rem;
+}
+
+.card {
+    background: rgba(255,255,255,0.02);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-content h2 {
+    margin: 0;
+}
+
+.card-content p {
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .card-image {
+        height: 220px;
+    }
 }
 
 article:hover {
@@ -147,15 +206,13 @@ article a:hover {
 }
 
 .footer {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
-    bottom: 0; /* Alinha na parte inferior */
-    left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
     color: var(--tertiary-color); /* Cor do texto */
     background-color: var(--bg-color); /* Cor de fundo */
     padding: 15px 20px; /* Espaçamento interno */
     border-top: 1px solid #3c4043; /* Borda superior */
     font-size: 0.8rem; /* Tamanho da fonte */
+    margin-top: auto; /* Garante que o footer fique no final quando o conteúdo for curto */
 }
 
 .footer-location {
@@ -230,8 +287,9 @@ article a:hover {
         gap: 0.5rem; /* Espaçamento entre os itens */
     }
 
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
+    /* Mantém o footer visível em telas pequenas */
+    .footer {
+        display: block;
     }
 
     button { /* Estilos para o botão em telas muito pequenas */

@@ -5,7 +5,8 @@
         "localizacao": "Cunha, SP",
         "preço_entrada": "R$ 20,00",
         "horario_funcionamento": "9h às 17h",
-        "link": "https://lavandario.com.br/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Lavand%C3%A1rio+Cunha+SP",
+        "image": "Images\\lavandario-de-cunha-09-destaque.jpg"
     },
     {
         "nome": "Parque Estadual da Serra do Mar",
@@ -13,7 +14,8 @@
         "localizacao": "São Paulo, SP",
         "preço_entrada": "R$ 10,00",
         "horario_funcionamento": "8h às 18h",
-        "link": "http://www.parquesdosp.org.br/serradomar/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Parque+Estadual+da+Serra+do+Mar+Sao+Paulo+SP",
+        "image": "Images\\Parque estadual.webp"
     },
     {
         "nome": "Pedra da Macela",
@@ -21,7 +23,8 @@
         "localizacao": "Divisa entre Cunha (SP) e Paraty (RJ)",
         "preço_entrada": "Gratuito",
         "horario_funcionamento": "Aberto 24h, mas recomendado durante o dia.",
-        "link": "https://www.icmbio.gov.br/parnaserradabocaina/guia-do-visitante.html"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Pedra+da+Macela+Cunha+Paraty",
+        "image": "Images\\Pedra da Macela.jpg"
     },
     {
         "nome": "Ateliê Suenaga & Jardineiro",
@@ -29,7 +32,8 @@
         "localizacao": "Cunha, SP",
         "preço_entrada": "Gratuito para visitação",
         "horario_funcionamento": "10h às 17h (verificar em feriados)",
-        "link": "https://www.suenagajardineiro.com.br/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Ateli%C3%AA+Suenaga+Jardineiro+Cunha+SP",
+        "image": "Images\\atelie-suenaga-e-jardineiro.png"
     },
     {
         "nome": "Cervejaria Wolkenburg",
@@ -37,7 +41,8 @@
         "localizacao": "Cunha, SP",
         "preço_medio": "R$ 30 - R$ 70 por pessoa",
         "horario_funcionamento": "Sexta a Domingo e feriados, 11h às 18h",
-        "link": "https://www.instagram.com/cervejariawolkenburg/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Cervejaria+Wolkenburg+Cunha+SP",
+        "image": "Images\\Cervejaria Wolkenburg.jpg"
     },
     {
         "nome": "Pousada Candeias",
@@ -45,7 +50,8 @@
         "localizacao": "Cunha, SP",
         "preço_medio": "Diárias a partir de R$ 400,00",
         "horario_funcionamento": "Check-in/Check-out conforme reserva",
-        "link": "https://www.pousadacandeias.com.br/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Pousada+Candeias+Cunha+SP",
+        "image": "Images\\Pousada Candeias.jpg"
     },
     {
         "nome": "Restaurante Quebra Cangalha",
@@ -53,15 +59,8 @@
         "localizacao": "Cunha, SP",
         "preço_medio": "R$ 60 - R$ 120 por pessoa",
         "horario_funcionamento": "Almoço aos finais de semana e feriados (consultar site)",
-        "link": "https://www.instagram.com/quebracangalha/"
-    },
-    {
-        "nome": "Trutaria da Toca",
-        "descricao": "Restaurante especializado em pratos com truta fresca, pescada nos tanques da própria pousada. Oferece diversas variações do peixe.",
-        "localizacao": "Cunha, SP",
-        "preço_medio": "R$ 70 - R$ 130 por pessoa",
-        "horario_funcionamento": "Almoço aos finais de semana e feriados (consultar site)",
-        "link": "https://www.pousadadatoca.com.br/trutaria"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Restaurante+Quebra+Cangalha+Cunha+SP",
+        "image": "Images\\Restaurante Quebra Cangalha.jpg"
     },
     {
         "nome": "Veríssima Bistrô",
@@ -69,7 +68,8 @@
         "localizacao": "Cunha, SP",
         "preço_medio": "R$ 80 - R$ 150 por pessoa",
         "horario_funcionamento": "Jantar, principalmente aos finais de semana (reserva recomendada)",
-        "link": "https://www.instagram.com/verissimabistro/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Ver%C3%ADssima+Bistr%C3%B4+Cunha+SP",
+        "image": "Images\\Veríssima.png"
     },
     {
         "nome": "O Lavandário Café & Bistrô",
@@ -77,7 +77,8 @@
         "localizacao": "Cunha, SP (dentro do Lavandário)",
         "preço_medio": "R$ 40 - R$ 80 por pessoa",
         "horario_funcionamento": "9h às 17h",
-        "link": "https://lavandario.com.br/cafe-bistro/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Lavand%C3%A1rio+Caf%C3%A9+Bistr%C3%B4+Cunha+SP",
+        "image": "Images\\lavandario-de-cunha-09-destaque.jpg"
     },
     {
         "nome": "Moara Café",
@@ -85,7 +86,8 @@
         "localizacao": "Centro, Cunha, SP",
         "preço_medio": "R$ 20 - R$ 50 por pessoa",
         "horario_funcionamento": "Consultar redes sociais",
-        "link": "https://www.instagram.com/moaracafe/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Moara+Caf%C3%A9+Cunha+SP",
+        "image": "Images\\Moara Café.webp"
     },
     {
         "nome": "Casa do Artesão de Cunha",
@@ -93,7 +95,8 @@
         "localizacao": "Centro, Cunha, SP",
         "preço_entrada": "Gratuito para visitação",
         "horario_funcionamento": "Geralmente aberto diariamente, 10h às 18h (verificar em feriados)",
-        "link": "https://www.instagram.com/casadoartesaodecunha/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Casa+do+Artes%C3%A3o+de+Cunha+Cunha+SP",
+        "image": "Images\\Casa do Artesão de Cunha.webp"
     },
     {
         "nome": "Ateliê do Gato",
@@ -101,6 +104,7 @@
         "localizacao": "Cunha, SP",
         "preço_entrada": "Gratuito para visitação",
         "horario_funcionamento": "Geralmente aberto aos finais de semana (consultar redes sociais)",
-        "link": "https://www.instagram.com/ateliedogatoceramica/"
+        "maps_link": "https://www.google.com/maps/search/?api=1&query=Ateli%C3%AA+do+Gato+Cunha+SP",
+        "image": "Images\\Ateliê do Gato.jpg"
     }
 ]

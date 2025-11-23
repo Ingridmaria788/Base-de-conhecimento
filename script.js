@@ -1,19 +1,59 @@
-let cardContainer = document.querySelector(".card-container");
+const cardContainer = document.querySelector(".card-container");
+const searchInput = document.querySelector("#search-input"); // Assumindo que seu input de busca tem o id="search-input"
 let dados = [];
 
-async function iniciarBusca() {
-    let resposta = await fetch("data.json");   
-    dados = await resposta.json();
-    renderizarCards(dados);
+async function carregarDados() {
+    try {
+        const resposta = await fetch("data.json");
+        if (!resposta.ok) {
+            throw new Error(`Erro ao carregar dados: ${resposta.statusText}`);
+        }
+        dados = await resposta.json();
+        renderizarCards(dados);
+    } catch (error) {
+        console.error("Falha na requisição:", error);
+        cardContainer.innerHTML = "<p>Não foi possível carregar os pontos turísticos. Tente novamente mais tarde.</p>";
+    }
 }
 
-function renderizarCards(dados) {
-    for (let dado of dados) {
-        let article = document.createElement("article");
+function renderizarCards(items) {
+    cardContainer.innerHTML = ""; // Limpa o container antes de renderizar novos cards
+
+    if (items.length === 0) {
+        cardContainer.innerHTML = "<p>Nenhum resultado encontrado.</p>";
+        return;
+    }
+
+    for (const item of items) {
+        const article = document.createElement("article");
         article.classList.add("card");
-        article.innerHTML = `<h2>${dado.nome}<h2>
-        <p>${dado.descricao}</p>
-        <a href="${dado.link}" target="_blank">Mais informações</a>`;
+        const imageUrl = item.image ? item.image : `https://source.unsplash.com/800x600/?${encodeURIComponent(item.nome)}`;
+        article.innerHTML = `
+            <img src="${imageUrl}" alt="${item.nome}" class="card-image"/>
+            <div class="card-content">
+                <h2>${item.nome}</h2>
+                <p>${item.descricao}</p>
+                <a href="${item.maps_link}" target="_blank">Mais informações</a>
+            </div>`;
         cardContainer.appendChild(article);
     }
 }
+
+// Função para remover acentos e converter para minúsculas
+function normalizarTexto(texto) {
+    return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+searchInput.addEventListener("input", () => {
+    const termoBusca = normalizarTexto(searchInput.value);
+
+    const dadosFiltrados = dados.filter(dado => {
+        const nomeNormalizado = normalizarTexto(dado.nome);
+        const descricaoNormalizada = normalizarTexto(dado.descricao);
+        return nomeNormalizado.includes(termoBusca) || descricaoNormalizada.includes(termoBusca);
+    });
+    renderizarCards(dadosFiltrados);
+});
+
+// Inicia o carregamento dos dados quando a página é carregada
+carregarDados();
