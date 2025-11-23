@@ -59,14 +59,14 @@ div input {
     font-size: 1.5rem; /* Tamanho da fonte */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 30rem; /* Largura do input */
-    color: var(--secondary-color); /* Cor do texto digitado */
+    color: var(--bg-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
 }
 
 div input::placeholder {
     font-size: 1.2rem; /* Tamanho da fonte do placeholder */
     font-weight: 300; /* Peso da fonte do placeholder */
-    color: var(--tertiary-color); /* Cor do texto do placeholder */
+    color: var(--bg-color); /* Cor do texto do placeholder */
 }
 
 div input:focus {
