@@ -1,0 +1,106 @@
+[
+    {
+        "nome": "Lavandário",
+        "descricao": "Um campo repleto de lavandas, perfeito para fotos e passeios tranquilos.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "R$ 20,00",
+        "horario_funcionamento": "9h às 17h",
+        "link": "https://lavandario.com.br/"
+    },
+    {
+        "nome": "Parque Estadual da Serra do Mar",
+        "descricao": "Uma vasta área de mata atlântica com trilhas, cachoeiras e mirantes.",
+        "localizacao": "São Paulo, SP",
+        "preço_entrada": "R$ 10,00",
+        "horario_funcionamento": "8h às 18h",
+        "link": "http://www.parquesdosp.org.br/serradomar/"
+    },
+    {
+        "nome": "Pedra da Macela",
+        "descricao": "Um dos pontos mais altos da região, com uma vista panorâmica espetacular das montanhas e do mar de Paraty em dias claros. O acesso final é por uma caminhada íngreme.",
+        "localizacao": "Divisa entre Cunha (SP) e Paraty (RJ)",
+        "preço_entrada": "Gratuito",
+        "horario_funcionamento": "Aberto 24h, mas recomendado durante o dia.",
+        "link": "https://www.icmbio.gov.br/parnaserradabocaina/guia-do-visitante.html"
+    },
+    {
+        "nome": "Ateliê Suenaga & Jardineiro",
+        "descricao": "Um dos mais famosos ateliês de cerâmica de Cunha, com peças únicas e a oportunidade de ver a queima no forno Noborigama.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito para visitação",
+        "horario_funcionamento": "10h às 17h (verificar em feriados)",
+        "link": "https://www.suenagajardineiro.com.br/"
+    },
+    {
+        "nome": "Cervejaria Wolkenburg",
+        "descricao": "Cervejaria artesanal que oferece degustação de suas cervejas com uma bela vista para as montanhas. Serve também petiscos e pratos alemães.",
+        "localizacao": "Cunha, SP",
+        "preço_medio": "R$ 30 - R$ 70 por pessoa",
+        "horario_funcionamento": "Sexta a Domingo e feriados, 11h às 18h",
+        "link": "https://www.instagram.com/cervejariawolkenburg/"
+    },
+    {
+        "nome": "Pousada Candeias",
+        "descricao": "Pousada charmosa com chalés individuais, lareira e uma vista privilegiada. Oferece um ambiente tranquilo e integrado à natureza.",
+        "localizacao": "Cunha, SP",
+        "preço_medio": "Diárias a partir de R$ 400,00",
+        "horario_funcionamento": "Check-in/Check-out conforme reserva",
+        "link": "https://www.pousadacandeias.com.br/"
+    },
+    {
+        "nome": "Restaurante Quebra Cangalha",
+        "descricao": "Restaurante de comida brasileira com foco em ingredientes locais e pratos tradicionais da fazenda, como o afogado e a galinhada.",
+        "localizacao": "Cunha, SP",
+        "preço_medio": "R$ 60 - R$ 120 por pessoa",
+        "horario_funcionamento": "Almoço aos finais de semana e feriados (consultar site)",
+        "link": "https://www.instagram.com/quebracangalha/"
+    },
+    {
+        "nome": "Trutaria da Toca",
+        "descricao": "Restaurante especializado em pratos com truta fresca, pescada nos tanques da própria pousada. Oferece diversas variações do peixe.",
+        "localizacao": "Cunha, SP",
+        "preço_medio": "R$ 70 - R$ 130 por pessoa",
+        "horario_funcionamento": "Almoço aos finais de semana e feriados (consultar site)",
+        "link": "https://www.pousadadatoca.com.br/trutaria"
+    },
+    {
+        "nome": "Veríssima Bistrô",
+        "descricao": "Bistrô com culinária contemporânea e toques regionais, utilizando ingredientes frescos. Ambiente intimista e romântico, ideal para jantares.",
+        "localizacao": "Cunha, SP",
+        "preço_medio": "R$ 80 - R$ 150 por pessoa",
+        "horario_funcionamento": "Jantar, principalmente aos finais de semana (reserva recomendada)",
+        "link": "https://www.instagram.com/verissimabistro/"
+    },
+    {
+        "nome": "O Lavandário Café & Bistrô",
+        "descricao": "Café e bistrô localizado dentro do Lavandário, oferece pratos, lanches e sobremesas com lavanda, além de uma vista incrível do campo.",
+        "localizacao": "Cunha, SP (dentro do Lavandário)",
+        "preço_medio": "R$ 40 - R$ 80 por pessoa",
+        "horario_funcionamento": "9h às 17h",
+        "link": "https://lavandario.com.br/cafe-bistro/"
+    },
+    {
+        "nome": "Moara Café",
+        "descricao": "Um café charmoso no centro de Cunha, conhecido por seus cafés especiais, bolos caseiros e ambiente acolhedor.",
+        "localizacao": "Centro, Cunha, SP",
+        "preço_medio": "R$ 20 - R$ 50 por pessoa",
+        "horario_funcionamento": "Consultar redes sociais",
+        "link": "https://www.instagram.com/moaracafe/"
+    },
+    {
+        "nome": "Casa do Artesão de Cunha",
+        "descricao": "Espaço que reúne o trabalho de diversos artesãos locais, incluindo ceramistas. É um ótimo lugar para ver a diversidade da produção de cerâmica da cidade.",
+        "localizacao": "Centro, Cunha, SP",
+        "preço_entrada": "Gratuito para visitação",
+        "horario_funcionamento": "Geralmente aberto diariamente, 10h às 18h (verificar em feriados)",
+        "link": "https://www.instagram.com/casadoartesaodecunha/"
+    },
+    {
+        "nome": "Ateliê do Gato",
+        "descricao": "Ateliê de cerâmica com peças criativas e divertidas, muitas delas com a temática de gatos. Um lugar único para encontrar peças de decoração e utilitários.",
+        "localizacao": "Cunha, SP",
+        "preço_entrada": "Gratuito para visitação",
+        "horario_funcionamento": "Geralmente aberto aos finais de semana (consultar redes sociais)",
+        "link": "https://www.instagram.com/ateliedogatoceramica/"
+    }
+]
